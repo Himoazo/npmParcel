@@ -1,0 +1,10 @@
+{
+  "name": "npmparcel",
+  "version": "1.0.0",
+  "description": "Moment 1",
+  "author": "Hoomam",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
