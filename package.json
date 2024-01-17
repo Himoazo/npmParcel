@@ -4,6 +4,7 @@
   "description": "Moment 1",
   "author": "Hoomam",
   "license": "ISC",
+  "source": "src/index.html",
   "devDependencies": {
     "parcel": "^2.11.0"
   }
