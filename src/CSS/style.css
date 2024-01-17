@@ -11,7 +11,7 @@ body{
 
 /* Design av Header */
 header {
-    height: 80px;
+    min-height: 10vh;
     background-color: #805231;
     margin: 0;
     position: relative;
@@ -181,10 +181,17 @@ main p {
     }
 }
 
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+    margin: 5vh auto;
+}
+
 /* Footer */ 
 
 footer{
-    height: 10vh;
+    min-height: 10vh;
     background-color: #805231;
     margin-top: auto;
 }
