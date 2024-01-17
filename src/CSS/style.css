@@ -2,10 +2,17 @@
     margin: 0;
 }
 
+body{
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Design av Header */
 header {
     height: 80px;
-    background-color: rgb(119, 24, 24);
+    background-color: #805231;
     margin: 0;
     position: relative;
     padding: 0 1em;
@@ -23,7 +30,7 @@ header {
 
 /* Design av meny för mobilenheter, placeras till höger om skärmen */
 nav {
-    background-color: rgb(119, 24, 24);
+    background-color: #805231;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.71);
     font-size: 1.4em;
     position: absolute;
@@ -172,4 +179,12 @@ main p {
         display: inline;
         padding: 1.2em 0;
     }
+}
+
+/* Footer */ 
+
+footer{
+    height: 10vh;
+    background-color: #805231;
+    margin-top: auto;
 }
