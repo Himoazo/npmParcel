@@ -136,55 +136,15 @@ p{
     font-size: 1.5em;
 }
 
-
-/* Media querys */
-
-/* Större skärmas - gör menyn som inline */
-@media only screen and (min-width: 800px) {
-    header {
-        padding: 0 3em;
-    }
-
-    .menu-btn {
-        display: none;
-    }
-
-    #open-menu {
-        display: none !important;
-    }
-
-    header {
-        position: static;
-    }
-
-    nav {
-        display: block !important;
-        position: static;
-        box-shadow: 0 0px 0px;
-        height: auto;
-        font-size: 1.4em;
-        width: auto;
-    }
-
-    nav ul {
-        height: 100%;
-    }
-
-    nav li {
-        display: inline;
-        padding: 1.2em 0;
-    }
-
-    .photos{
-        grid-template-columns: 1fr;
-    }
-}
-
+/* bilder */
 .photos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2em;
     margin: 5vh auto;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
 }
 
 /* Footer */ 
