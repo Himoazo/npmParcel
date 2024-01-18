@@ -125,27 +125,22 @@ nav li:hover {
 }
 
 /* Main content */
-main {
-    max-width: 800px;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 1.2em;
+#mainHead{
+    text-align: center;
+    margin-top: 2vh;
 }
 
-h2 {
-    margin: 1em 0;
-}
-
-main p {
-    font-size: 1.2em;
-    line-height: 1.4em;
+p{
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 1.5em;
 }
 
 
 /* Media querys */
 
 /* Större skärmas - gör menyn som inline */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 800px) {
     header {
         padding: 0 3em;
     }
@@ -178,6 +173,10 @@ main p {
     nav li {
         display: inline;
         padding: 1.2em 0;
+    }
+
+    .photos{
+        grid-template-columns: 1fr;
     }
 }
 
