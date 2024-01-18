@@ -57,7 +57,7 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 0 1em;
+    padding:1em;
 }
 
 nav li:hover {
@@ -140,6 +140,15 @@ a.active{
     background-color: rgb(94, 15, 15);
   }
 
+  /* startsida */
+
+  #startP{
+    width: 80vw;
+    max-width: 70ch;
+    margin: 0 auto;
+    text-align: center;
+
+  }
 /* bilder */
 .photos{
     display: grid;
@@ -151,6 +160,23 @@ a.active{
     width: 100%;
 }
 
+#picHead{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+/* Om webbplatsen */
+.processP{
+    max-width: 70ch;
+    text-align: left;
+    margin: 0 auto;
+    padding: 2% 4%;
+}
+
+#process h1{
+    margin-top: 4vh;
+    text-align: center;
+}
 /* Footer */ 
 
 footer{

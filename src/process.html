@@ -39,7 +39,38 @@
         </nav>
     </header>
     <main>
-
+        <article id="process">
+            <h1>Beskrivning av arbets processen</h1>
+             <p class="processP">
+            Första steget av byggandet av denna webbplats var att skapa en mapp, sedan via command line skapa package.json genom kommandot npm init. 
+            Nästa steg var att installera Parcel genom att använda install parcel –save-dev, detta installerar Parcel i en utvecklings dependency. </p>
+            <p class="processP">
+            Sedan har det skapats en .ignore fil för att hindra versionshantering av de många Parcel packet som har nedladdats, node_modules och även 
+            dist filerna har ignorerats. Github ripository har skapats i detta stadie och versionshantering av arbetsprocessen har börjat. 
+            Under utvecklingstid så har jobbet skett på en ”development” bransch som har skapats för att versionshantera under arbetsgenomgången 
+            så att en merge med main bransch skulle ske när webbplatsen är färdigt byggd. <br>
+            Justeringar har också gjorts till package.json filen i form av att ange källa för projektet (source) samt scripts. <br>
+            Nu när utvecklingsmiljön med NPM och Parcel är på plats så har webbplatsens html, css och js filer skapats och placerats i sina mappar 
+            under mappen ”src”
+            </p>
+            <p class="processP">
+            När det gäller bilder så har 5st bilder i jpg format nedladdats från pexel.com. Dessa bilder visas på webbplatsen med hjälp av picture tag 
+            där Parcel erbjuder möjligheten att konvertera bildformaten till andra och modernare filformat. I detta fall så har Aviff respektive webp valts 
+            som första och andrahandsval. Inne på samma spår gällande bilder så har det skapats en ”sharp.config.json” fil i denna har det angetts alternativ 
+            som Parcel ska applicera på webbplatsens bilder (justera kvalité för diverse filformat och bestämma vilken typ av komprimering ska användas).
+            </p>
+            
+            <p class="processP">
+            <strong>Information om minifiering och transpilering:</strong> Parcel minifierar per automatik all HTML, Css och Javascript om inget annat är 
+            angett, i detta webbplatsfall inget annat är angett och förutnämnda filtyper minifieras per automatik av Parcel.
+            Gällande transpilering, i package.json, så är denna rad angivit:  "browserslist": "> 0.5%, last 2 versions, not dead", vilket betyder att 
+            Parcel kommer att anpassa koden för webbläsarna som har mer än 0.5% användning av den totala användningen av alla webbläsare, de 
+            senaste 2 versioner av dessa webbläsare så länge dessa webbläsare inte är döda dvs webbläsare som får fortfarande uppdateringar eller i 
+            alla fall har uppdaterats i de senaste 24 månaderna. 
+            </p>
+        
+        </article>
+       
     </main>
     <footer>
         <p>VT2024 DT211G Datateknik GR (B), Frontend-baserad webbutveckling <br>
