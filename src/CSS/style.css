@@ -154,3 +154,8 @@ footer{
     background-color: #805231;
     margin-top: auto;
 }
+
+footer p {
+    font-size: 1em;
+    font-weight: bold;
+}
