@@ -136,6 +136,10 @@ p{
     font-size: 1.5em;
 }
 
+a.active{
+    background-color: rgb(94, 15, 15);
+  }
+
 /* bilder */
 .photos{
     display: grid;
